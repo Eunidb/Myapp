@@ -1,0 +1,51 @@
+ion-content.background{
+  background-image: url(https://coatzacoalcos.uo.edu.mx/sites/default/files/gdi-blog/PLANTAS_BLOG.jpg) 0 0/100% 100% no-repeat;
+}
+ion-img{
+  height: 60vh;
+}
+/* iOS places the subtitle above the title */
+ion-card-header.ios {
+    flex-flow: column-reverse;
+    align-content: center;
+    padding: 150px 50px;
+    margin:50px 80px;
+    text-align: center;
+
+    background-color: #678547;
+  }
+  ion-card-subtitule{
+    color: rgb(254, 254, 254);
+  }
+  ion-button {
+    text-align: center;
+    align-items: center;
+    margin: 10px 650px;
+  }
+  ion-content {
+    background-color:#AECC8E ;
+}
+ion-icon{
+   
+    color: black;
+}
+.hide-scroll {
+  overflow: hidden;
+}
+
+.viewport {
+  overflow: auto;
+
+  /* Make sure the inner div is not larger than the container
+   * so that we have room to scroll.
+   */
+  max-height: 100%;
+
+  /* Pick an arbitrary margin/padding that should be bigger
+   * than the max width of all the scroll bars across
+   * the devices you are targeting.
+   * padding = -margin
+   */
+  margin-right: -100px;
+  padding-right: 100px;
+}
